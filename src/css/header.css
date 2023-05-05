@@ -1,0 +1,40 @@
+.header {
+   background-color: #0A0A0A;
+   display: flex;
+   justify-content: center;
+   color: white;
+   padding: 33px 0;
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.header-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   font-size: 24px;
+}
+
+.header-menu {
+   display: flex;
+   flex-grow: 1;
+   flex-basis: 0;
+}
+
+.header-menu-btn {
+   display: none;
+}
+
+.header-phone,
+.footer-phone {
+   flex-grow: 1;
+   flex-basis: 0;
+   text-align: right;
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.header-menu-item {
+   margin-right: 30px;
+}
